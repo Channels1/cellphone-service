@@ -7,12 +7,12 @@ public class CellPhone {
     private String phoneNumber;
     private String owner;
 
-    public CellPhone (long serialNumber,String model,String carrier,String phoneNumber,String owner) {
-        this.serialNumber = serialNumber;
-        this.model = model;
-        this.carrier = carrier;
-        this.phoneNumber = phoneNumber;
-        this.owner = owner;
+    public CellPhone() {
+        this.serialNumber = 0;
+        this.model = "";
+        this.carrier = "";
+        this.phoneNumber  = "";
+        this.owner = "";
     }
 
     public long getSerialNumber() {
@@ -28,8 +28,28 @@ public class CellPhone {
 
     }
 
+    public void setSerialNumber(long serialNumber) {
+        this.serialNumber = serialNumber;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setCarrier(String carrier) {
+        this.carrier = carrier;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public void setOwner(String owner) {
+        this.owner = owner;
+    }
+
     public String getPhoneNumber() {
-        return phoneNumber;
+        return phoneNumber =phoneNumber;
 
     }
 
